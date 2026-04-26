@@ -14,9 +14,4 @@ O algoritmo tradicional de multiplicação de matrizes quadradas de ordem $n$ ut
 - **Complexidade Assintótica:** $O(n^3)$ (Melhor, Pior e Caso Médio).
 
 ## 💻 2. Código e Experimentação
-O código fonte em C está localizado na pasta /src. Foram realizados testes com matrizes de tamanhos variados ($n = 100, 200, 400, 800$) preenchidas com valores aleatórios.
-
-**Como compilar e executar:**
-```bash
-gcc src/multiplicacao.c -o multiplicacao
-./multiplicacao
+O código fonte em C está localizado na pasta /src. Foram realizados testes com matrizes de tamanhos variados ($n = 100, 200, 400, 1000, 5000$) preenchidas com valores aleatórios.
