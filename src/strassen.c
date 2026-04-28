@@ -85,7 +85,6 @@ int main() {
     for(int i = 0; i < 5; i++) {
         int n = tamanhos[i];
         // O Strassen padrão precisa de n como potência de 2. 
-        // Para simplificar seu teste, vamos usar n direto.
         int** A = alocar(n); int** B = alocar(n); int** C = alocar(n);
         
         printf("Rodando Strassen para n = %d...\n", n);
